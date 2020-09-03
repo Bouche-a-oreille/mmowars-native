@@ -1,4 +1,4 @@
-package com.mmowars;
+package com.baos.boucheaoreilles;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

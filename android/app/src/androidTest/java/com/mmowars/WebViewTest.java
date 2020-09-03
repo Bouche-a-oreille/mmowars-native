@@ -1,5 +1,5 @@
 
-package com.mmowars;
+package com.baos.boucheaoreilles;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;

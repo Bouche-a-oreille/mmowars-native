@@ -1,4 +1,4 @@
-package com.mmowars;
+package com.baos.boucheaoreilles;
 
 import androidx.test.uiautomator.UiDevice;
 import androidx.test.uiautomator.UiObjectNotFoundException;

@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'mmowars' do
+target 'BoucheaOreilles' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'mmowarsTests' do
+  target 'BoucheaOreillesTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'mmowars' do
   end
 end
 
-target 'mmowars-tvOS' do
+target 'BoucheaOreilles-tvOS' do
   # Pods for RN063-tvOS
 
-  target 'mmowars-tvOSTests' do
+  target 'BoucheaOreilles-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

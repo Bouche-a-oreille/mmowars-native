@@ -1,5 +1,5 @@
 {
-	"name": "mmowars",
+	"name": "BoucheaOreilles",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -10,7 +10,8 @@
 		"ios": "react-native run-ios",
 		"start": "react-native start",
 		"test": "jest",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"rename": "react-native-rename-next \"Bouche a Oreilles\""
 	},
 	"dependencies": {
 		"@react-native-firebase/app": "^8.2.0",
@@ -23,6 +24,7 @@
 		"react-native-gesture-handler": "^1.7.0",
 		"react-native-linear-gradient": "^2.5.6",
 		"react-native-localize": "^1.4.1",
+		"react-native-rename-next": "^2.5.3",
 		"react-native-share": "^3.7.0",
 		"react-native-udp": "^3.1.0",
 		"react-native-webview": "^10.3.3"

@@ -1,4 +1,4 @@
-package com.mmowars;
+package com.boucheaoreilles;
 
 import com.facebook.react.ReactActivity;
 
@@ -14,7 +14,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "mmowars";
+    return "BoucheaOreilles";
   }
 
   @Override

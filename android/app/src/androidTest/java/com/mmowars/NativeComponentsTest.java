@@ -1,4 +1,4 @@
-package com.mmowars;
+package com.baos.boucheaoreilles;
 
 // https://developer.android.com/reference/androidx/packages
 // https://developer.android.com/reference/androidx/test/packages
@@ -27,7 +27,7 @@ public class NativeComponentsTest {
 
     private UiDevice device;
     private static final int LAUNCH_TIMEOUT = 5000;
-    private static final String PACKAGE_NAME = "com.mmowars.nativetesting";
+    private static final String PACKAGE_NAME = "com.baos.boucheaoreilles.nativetesting";
 
     @Before
     public void setUp() {

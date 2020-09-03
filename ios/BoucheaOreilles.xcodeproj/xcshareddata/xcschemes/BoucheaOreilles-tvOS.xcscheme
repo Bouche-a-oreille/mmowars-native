@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "mmowars-tvOS.app"
-               BlueprintName = "mmowars-tvOS"
-               ReferencedContainer = "container:mmowars.xcodeproj">
+               BuildableName = "BoucheaOreilles-tvOS.app"
+               BlueprintName = "BoucheaOreilles-tvOS"
+               ReferencedContainer = "container:BoucheaOreilles.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "mmowars-tvOSTests.xctest"
-               BlueprintName = "mmowars-tvOSTests"
-               ReferencedContainer = "container:mmowars.xcodeproj">
+               BuildableName = "BoucheaOreilles-tvOSTests.xctest"
+               BlueprintName = "BoucheaOreilles-tvOSTests"
+               ReferencedContainer = "container:BoucheaOreilles.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "mmowars-tvOS.app"
-            BlueprintName = "mmowars-tvOS"
-            ReferencedContainer = "container:mmowars.xcodeproj">
+            BuildableName = "BoucheaOreilles-tvOS.app"
+            BlueprintName = "BoucheaOreilles-tvOS"
+            ReferencedContainer = "container:BoucheaOreilles.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "mmowars-tvOS.app"
-            BlueprintName = "mmowars-tvOS"
-            ReferencedContainer = "container:mmowars.xcodeproj">
+            BuildableName = "BoucheaOreilles-tvOS.app"
+            BlueprintName = "BoucheaOreilles-tvOS"
+            ReferencedContainer = "container:BoucheaOreilles.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
