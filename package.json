@@ -4,6 +4,8 @@
 	"private": true,
 	"scripts": {
 		"android": "react-native run-android",
+		"copy": "rm -rf App/prodApp/* && cp -R ../app/src/* App/prodApp/",
+		"copy:ln": "rm -rf App/prodApp/src && ln -sf $(readlink -f .)/../app/src App/prodApp/src",
 		"install:nativetesting": "adb install -r android/app/build/outputs/apk/nativetesting/app-nativetesting.apk",
 		"install:release": "adb install -r android/app/build/outputs/apk/release/app-release.apk",
 		"apk:laptopdownload": "scp fr33maan@192.168.1.45:/home/fr33maan/dev/mmowars/android/app/build/outputs/bundle/release/app-release.aab .",
@@ -19,6 +21,7 @@
 		"axios": "^0.19.2",
 		"rambda": "^5.10.0",
 		"react": "16.13.1",
+		"react-content-loader": "^5.1.1",
 		"react-native": "0.63.2",
 		"react-native-code-push": "^6.3.0",
 		"react-native-device-info": "^5.6.3",
@@ -27,6 +30,7 @@
 		"react-native-localize": "^1.4.1",
 		"react-native-rename-next": "^2.5.3",
 		"react-native-share": "^3.7.0",
+		"react-native-svg": "^12.1.0",
 		"react-native-udp": "^3.1.0",
 		"react-native-webview": "^10.3.3"
 	},

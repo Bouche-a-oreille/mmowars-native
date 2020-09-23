@@ -17,7 +17,53 @@
       "esnext",
       "dom"
     ],
-    "baseUrl": "./App/prodApp",
-    "paths": {}
+    "baseUrl": "./App/prodApp/src",
+    "paths": {
+      "App": [
+        "index.tsx"
+      ],
+      "@app": [
+        "app"
+      ],
+      "@components": [
+        "components"
+      ],
+      "@navigation": [
+        "navigation/navigation"
+      ],
+      "@rnweb/*": [
+        "lib/rnweb-light/*"
+      ],
+      "@screens/*": [
+        "screens/*"
+      ],
+      "@screens": [
+        "screens"
+      ],
+      "@state": [
+        "state/state"
+      ],
+      "@logger": [
+        "lib/logger"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@config": [
+        "config"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "actions": [
+        "actions"
+      ],
+      "platform": [
+        "config/platform"
+      ],
+      "uiUtils/*": [
+        "utils/*"
+      ],
+    }
   }
 }
