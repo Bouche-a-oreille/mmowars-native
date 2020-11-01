@@ -144,6 +144,7 @@ android {
         versionCode 1
         versionName "semVerName"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
     splits {
         abi {
@@ -223,6 +224,7 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation project(':react-native-track-player')
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 

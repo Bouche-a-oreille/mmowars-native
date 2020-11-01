@@ -17,7 +17,6 @@
 		"rename": "react-native-rename-next \"Bouche a Oreilles\""
 	},
 	"dependencies": {
-		"@react-native-community/audio-toolkit": "^2.0.3",
 		"@react-native-firebase/app": "^8.2.0",
 		"axios": "^0.19.2",
 		"lodash": "^4.17.20",
@@ -34,6 +33,7 @@
 		"react-native-rename-next": "^2.5.3",
 		"react-native-share": "^3.7.0",
 		"react-native-svg": "^12.1.0",
+		"react-native-track-player": "^1.2.3",
 		"react-native-udp": "^3.1.0",
 		"react-native-webview": "^10.3.3",
 		"use-async-reducer": "^1.4.0"
