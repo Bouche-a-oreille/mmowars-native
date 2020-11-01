@@ -28,6 +28,10 @@ Opinionated React-Native boilerplate, already hot, ready for profuction.
 ## Android
 
 - create a keystore
+```
+keytool -genkey -v -keystore baos-upload-key.keystore -alias baos-key-alias -keyalg RSA -keysize 2048 -validity 10000
+```
+
 - create your app in firebase
 - create a json account access file for google play
 

@@ -4,10 +4,12 @@
 	"private": true,
 	"scripts": {
 		"android": "react-native run-android",
+		"emu": "emulator @Pixel_2_API_27",
 		"copy": "rm -rf App/prodApp/* && cp -R ../app/src/* App/prodApp/",
 		"copy:ln": "rm -rf App/prodApp/src && ln -sf $(readlink -f .)/../app/src App/prodApp/src",
 		"install:nativetesting": "adb install -r android/app/build/outputs/apk/nativetesting/app-nativetesting.apk",
 		"install:release": "adb install -r android/app/build/outputs/apk/release/app-release.apk",
+		"build:apk": "cd android && fastlane android build_release_install",
 		"apk:laptopdownload": "scp fr33maan@192.168.1.45:/home/fr33maan/dev/mmowars/android/app/build/outputs/bundle/release/app-release.aab .",
 		"ios": "react-native run-ios",
 		"start": "react-native start",
