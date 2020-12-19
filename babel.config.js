@@ -8,6 +8,7 @@ module.exports = {
 				alias: {
 					'@app': './App/prodApp/app',
 					'@images': './App/prodApp/assets/images',
+					'@fonts': './App/prodApp/assets/fonts',
 					'@components': './App/prodApp/components',
 					'@navigation': './App/prodApp/navigation/navigation',
 					'@rnweb': './App/prodApp/lib/rnweb-light',
