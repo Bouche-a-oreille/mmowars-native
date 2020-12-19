@@ -6268,6 +6268,11 @@ react-native-markdown-renderer@^3.2.8:
     prop-types "^15.5.10"
     react-native-fit-image "^1.5.2"
 
+react-native-qonversion@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-qonversion/-/react-native-qonversion-2.0.2.tgz#359f843bf9edd9c70ed1fad10799bb1ec1a01b7a"
+  integrity sha512-UP0IlltUGGHF6KgRCXHNLPuRKPX7QHXJu52kf2lincpFHYWOabrvn1z87n1zUoPdBo/dNN/nYCSk4T6gWhDZvw==
+
 react-native-share@^3.7.0:
   version "3.8.5"
   resolved "https://registry.yarnpkg.com/react-native-share/-/react-native-share-3.8.5.tgz#e74ed39401b9fceef700435cef7c28bc37c7e267"

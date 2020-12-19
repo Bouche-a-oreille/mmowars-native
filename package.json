@@ -35,6 +35,7 @@
 		"react-native-linear-gradient": "^2.5.6",
 		"react-native-localize": "^1.4.1",
 		"react-native-markdown-renderer": "^3.2.8",
+		"react-native-qonversion": "^2.0.2",
 		"react-native-share": "^3.7.0",
 		"react-native-svg": "^12.1.0",
 		"react-native-track-player": "^1.2.3"
