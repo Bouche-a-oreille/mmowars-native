@@ -39,7 +39,8 @@
 		"react-native-qonversion": "^2.0.2",
 		"react-native-share": "^3.7.0",
 		"react-native-svg": "^12.1.0",
-		"react-native-track-player": "^1.2.3"
+		"react-native-track-player": "^1.2.3",
+		"react-native-url-polyfill": "^1.2.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.11.0",
