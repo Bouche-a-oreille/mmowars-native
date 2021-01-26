@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.boucheaoreilles">
+  package="com.baos.boucheaoreilles">
 
     <uses-permission android:name="android.permission.INTERNET" />
     

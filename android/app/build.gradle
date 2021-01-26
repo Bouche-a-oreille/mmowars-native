@@ -138,11 +138,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.boucheaoreilles"
+        applicationId "com.baos.boucheaoreilles"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
-        versionName "semVerName"
+        versionName "1.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }

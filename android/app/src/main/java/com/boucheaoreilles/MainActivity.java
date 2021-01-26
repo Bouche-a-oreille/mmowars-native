@@ -1,4 +1,4 @@
-package com.boucheaoreilles;
+package com.baos.boucheaoreilles;
 
 import com.facebook.react.ReactActivity;
 
