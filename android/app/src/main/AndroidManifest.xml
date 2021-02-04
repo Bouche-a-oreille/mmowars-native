@@ -40,6 +40,10 @@
                 android:host="boucheaoreilles.fr"
                 android:path="/deeplink"
           />
+          <data android:scheme="https"
+                android:host="boucheaoreilles.fr"
+                android:path="/subscribeSuccess"
+          />
           <!-- note that the leading "/" is required for pathPrefix-->
         </intent-filter>
       </activity>
