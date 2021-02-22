@@ -32,7 +32,7 @@
         "navigation/navigation"
       ],
       "@rnweb/*": [
-        "lib/rnweb-light/*"
+        "libs/rnweb-light/*"
       ],
       "@screens/*": [
         "screens/*"
@@ -44,10 +44,10 @@
         "state/state"
       ],
       "@logger": [
-        "lib/logger"
+        "libs/logger"
       ],
       "@lib/*": [
-        "lib/*"
+        "libs/*"
       ],
       "@config": [
         "config"

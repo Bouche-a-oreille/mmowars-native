@@ -11,7 +11,7 @@
 		"set:googleplay": "echo \"export default 'googleplay'\" > App/prodApp/config/buildType.ts",
 		"install:nativetesting": "adb install -r android/app/build/outputs/apk/nativetesting/app-nativetesting.apk",
 		"install:release": "adb install -r android/app/build/outputs/apk/release/app-release.apk",
-		"build:apk": "yarn copy && yarn set:googleplay && cd android && fastlane android build_release_install",
+		"build:apk": "yarn copy && yarn set:standalone && cd android && fastlane android build_release_install",
 		"build:aab": "yarn copy && yarn set:googleplay && cd android && fastlane android build_release",
 		"apk:laptopdownload": "scp fr33maan@192.168.1.45:/home/fr33maan/dev/mmowars/android/app/build/outputs/bundle/release/app-release.aab .",
 		"ios": "react-native run-ios",
